@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Suraj",
+  lastName: "Phirke",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  avatar: "/images/img.jpg",
+  location: "Asia/india", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Surajphirke3/",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/suraj-phirke/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:surajphirke3@gmail.com",
   },
 ];
 
@@ -52,10 +52,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>WEB Developer & UI/UX designer </>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Suraj, a design engineer at <InlineCode>India</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -81,9 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Hi, I'm Suraj Phirke a passionate full-stack web developer and UI/UX designer with a keen eye for detail and a love for creating smooth, user-centered digital experiences. I specialize in building modern, responsive websites and applications using technologies like HTML, CSS, JavaScript, and frameworks like Next.js. With a strong focus on both design and functionality, I aim to bring ideas to life through clean code and thoughtful design. I'm also a proactive learner and team player, always exploring new technologies and striving to grow in the ever-evolving world of tech.
       </>
     ),
   },
@@ -92,19 +90,20 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Suraj Automation",
+        timeframe: "2020 - Present",
+        role: "junior Design Engineer 2020 - 2022, Design Engineer 2022 - Present",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed and implemented a new user interface for the company's flagship product,
+            resulting in a 25% increase in user satisfaction scores.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Collaborated with cross-functional teams to develop a design system that improved
+            consistency across all digital products.
           </>,
         ],
+        
         images: [
           // optional: leave the array empty if you don't want to display images
           {
@@ -116,8 +115,8 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
+        company: "N.S. MEDIA ",
+        timeframe: "may 2022",
         role: "Lead Designer",
         achievements: [
           <>
@@ -138,12 +137,18 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Vidyavardhini's College of Engineering and Technology (2024 - 2027)",
+        timeframe: "2024 - 2027",
+        degree: "Bachelor of Engineering in Computer Engineering",
+        description: <>Bachelor of Engineering in Artificial intelligence and Data Science.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "VIVA College of Diploma,Engineering & Technology (2021 - 2024)",
+        description: <>Diploma In Computer Engineering.</>,
+      },
+      {
+        name: "SMG English School (2011 - 2021)",
+        description: <>1st To 10th </>,
       },
     ],
   },
@@ -152,8 +157,21 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Graphic Designing & UI/UX",
+        // description: <>Figma, Adobe Photoshop, Adobe Illustrator, Corel Draw</>,
+        description: <> Proficient in crafting engaging visuals and seamless user experiences across web and mobile platforms.<br /><br />
+        <b>Graphic Designing Tools:</b><br />
+        • Adobe Photoshop<br />
+        • Adobe Illustrator<br />
+        • CorelDRAW<br />
+        • Canva<br /><br />
+        <b>UI/UX Design Tools:</b><br />
+        • Figma<br />
+        • Adobe XD<br />
+        • PenPot<br />
+        
+      </>,
+                    
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -171,8 +189,29 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "WEB Development",
+        description: <> Experienced in building responsive, high-performance web applications with modern tech stacks.<br /><br />
+        <b>Frontend Technologies:</b><br />
+        • HTML5<br />
+        • CSS3 <br />
+        • JavaScript (ES6+)<br />
+        • React.js<br />
+        • Next.js<br />
+        • Tailwind CSS<br /><br />
+        <b>Backend Technologies:</b><br />
+        • Node.js<br />
+        • Express.js<br />
+        • Django<br />
+        • Firebase<br />
+        <br />
+        <b>Database & Tools:</b><br />
+        • MongoDB<br />
+        • Appwrite<br />
+        • MySQL<br />
+        • PostgreSQL<br />
+        • Git & GitHub<br />
+        • Vercel / Netlify / Render
+      </>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -210,22 +249,22 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/img1.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/gallery/img9.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
+      src: "/images/gallery/img8.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/gallery/img10.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -245,7 +284,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
+      src: "/images/gallery/img6.jpg",
       alt: "image",
       orientation: "vertical",
     },
@@ -260,12 +299,12 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-11.jpg",
+      src: "/images/gallery/img3.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: "/images/gallery/img4.jpg",
       alt: "image",
       orientation: "horizontal",
     },
