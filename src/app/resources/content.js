@@ -268,22 +268,22 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-09.jpg",
+      src: "/images/gallery/perimg1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-10.jpg",
+      src: "/images/gallery/perimg3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img3.jpg",
+      src: "/images/gallery/perimg4.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img4.jpg",
+      src: "/images/gallery/perimg5.jpg",
       alt: "image",
       orientation: "horizontal",
     },

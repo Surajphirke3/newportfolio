@@ -35,7 +35,7 @@ export async function generateMetadata() {
 
 export default function Gallery() {
   return (
-    <div>
+   
     <Flex fillWidth>
       <script
         type="application/ld+json"
@@ -66,7 +66,7 @@ export default function Gallery() {
       <MasonryGrid />
       
     </Flex>
-   <CustomKanban/></div>
+ 
     
   );
 }
