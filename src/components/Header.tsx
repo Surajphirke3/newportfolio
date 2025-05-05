@@ -143,6 +143,23 @@ export const Header = () => {
                   />
                 </>
               )}
+              {routes["/kanban"] && (
+                <>
+                  <ToggleButton
+                    className="s-flex-hide"
+                    prefixIcon="gallery"
+                    href="/kanban"
+                    label={gallery.label}
+                    selected={pathname.startsWith("/kanban")}
+                  />
+                  <ToggleButton
+                    className="s-flex-show"
+                    prefixIcon="gallery"
+                    href="/kanban"
+                    selected={pathname.startsWith("/kanban")}
+                  />
+                </>
+              )}
             </Flex>
           </Flex>
         </Flex>

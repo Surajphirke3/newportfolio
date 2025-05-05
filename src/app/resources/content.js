@@ -92,7 +92,7 @@ const about = {
       {
         company: "Suraj Automation",
         timeframe: "2020 - Present",
-        role: "junior Design Engineer 2020 - 2022, Design Engineer 2022 - Present",
+        role: "junior Design Engineer 2020 - 2022, Design Engineer 2022 - dec 2024",
         achievements: [
           <>
             Designed and implemented a new user interface for the company's flagship product,
@@ -116,7 +116,7 @@ const about = {
       },
       {
         company: "N.S. MEDIA ",
-        timeframe: "may 2022",
+        timeframe: "AUg 2023 - sept 2023 ",
         role: "Lead Designer",
         achievements: [
           <>

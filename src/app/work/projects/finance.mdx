@@ -1,0 +1,47 @@
+---
+title: "RAG-based Financial Chatbot using Python"
+publishedAt: "2025-03-10"
+summary: "An intelligent chatbot that uses Retrieval-Augmented Generation (RAG) to answer real-time financial queries with context-aware responses."
+images:
+  - "/images/projects/RAG/CHAT3.png"
+  - "/images/projects/RAG/CHAT2.png"
+team:
+  - name: "Suraj Phirke"
+    role: "AI Developer & Backend Engineer"
+    avatar: "/images/img.jpg"
+    linkedIn: "https://www.linkedin.com/in/surajphirke/"
+link: "https://github.com/surajphirke/rag-financial-chatbot"
+---
+
+## Overview
+
+This project is a **Retrieval-Augmented Generation (RAG) based financial chatbot** developed in Python. It allows users to ask finance-related questions (like taxes, savings, budgeting, investing), and responds with accurate, context-aware answers by combining local document retrieval and large language models (LLMs).
+
+It was designed to assist users who are not financially literate and want clear, trustworthy, and personalized financial advice without sifting through complex web resources.
+
+## Key Features
+
+- 💬 **Natural Language Q&A**: Users can ask questions in everyday language.
+- 📚 **Contextual Retrieval**: Uses vector databases and embeddings to fetch relevant documents.
+- 🧠 **RAG Architecture**: Combines document context with generative LLM response.
+- 🔒 **Secure & Local**: Can work offline with custom-trained datasets for privacy.
+- 📈 **Financial Knowledge Base**: Includes curated finance-related PDFs, CSVs, and scraped web data.
+
+## Technologies Used
+
+- **Python** – Core programming language.
+- **LangChain** – Framework to build RAG pipelines.
+- **ChromaDB** – Vector database for embedding and retrieval.
+- **Mistral** – Large language model for advanced text generation.
+- **PyPDF** – For processing PDF documents and extracting relevant data.
+- **Pandas / Requests** – For preprocessing documents and datasets.
+
+## Challenges and Learnings
+
+Building a hybrid RAG system required fine-tuning the embedding quality and retrieval filters to ensure the chatbot fetched relevant financial context. I learned how to optimize prompts, manage token limits, and improve accuracy using document chunking and metadata filtering.
+
+Additionally, latency handling and maintaining a lightweight system for quick local responses taught me efficient system design.
+
+## Outcome
+
+The chatbot offers a solid base for intelligent personal finance assistance tools. It can be extended into a full-scale assistant for banks, fintech platforms, or educational tools. This project sharpened my skills in NLP, prompt engineering, and AI system integration using Python.

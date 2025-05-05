@@ -2,6 +2,7 @@ import { Flex } from "@/once-ui/components";
 import MasonryGrid from "@/components/gallery/MasonryGrid";
 import { baseURL } from "@/app/resources";
 import { gallery, person } from "@/app/resources/content";
+import { CustomKanban } from "@/components/CustomKanban";
 
 export async function generateMetadata() {
   const title = gallery.title;
@@ -34,6 +35,7 @@ export async function generateMetadata() {
 
 export default function Gallery() {
   return (
+    <div>
     <Flex fillWidth>
       <script
         type="application/ld+json"
@@ -62,6 +64,9 @@ export default function Gallery() {
         }}
       />
       <MasonryGrid />
+      
     </Flex>
+   <CustomKanban/></div>
+    
   );
 }
