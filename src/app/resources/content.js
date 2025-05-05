@@ -91,7 +91,7 @@ const about = {
     experiences: [
       {
         company: "Suraj Automation",
-        timeframe: "2020 - Present",
+        timeframe: "2020 - 2024",
         role: "junior Design Engineer 2020 - 2022, Design Engineer 2022 - dec 2024",
         achievements: [
           <>
